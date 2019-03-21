@@ -1,0 +1,14 @@
+{
+  "name": "megogo-commitlint-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "@commitlint/cli": "^6.1.3",
+    "@commitlint/config-conventional": "^6.1.3",
+    "commitizen": "^2.9.6",
+    "word-wrap": "^1.2.3"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.x2sy.com/repository/mgg-npm-private"
+  }
+}
