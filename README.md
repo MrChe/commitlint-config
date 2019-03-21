@@ -6,19 +6,19 @@ and [commitizen](https://github.com/commitizen/cz-cli) config for Megogo project
 ## Getting started
 
 ```
-npm install --save-dev megogo-commitlint-config
+npm install --save-dev commitlint-config
 ```
 
 - Create config files in your project for commitlint.config.js and commitizen.config.js
 
 ```
-const config = require('megogo-commitlint-config/commitlint.js');
+const config = require('<path>/commitlint.js');
 
 module.exports = config('<package-shortname>');
 ```
 
 ```
-const config = require('megogo-commitlint-config/commitizen.js');
+const config = require('commitlint-config/commitizen.js');
 
 module.exports = config('<package-shortname>');
 ```
